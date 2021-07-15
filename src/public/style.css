@@ -1,0 +1,105 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: url("pexels-sebastiaan-stam-1097456.jpg");
+}
+
+li a {
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.logo{
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10%;
+    background-color: #252525;
+}
+
+.nav-link{
+    list-style: none;
+}
+
+.nav-link li {
+    display: inline-block;
+    padding: 0 15px;
+}
+
+
+i{
+    color: rgb(250, 242, 229);
+    padding-right: 8px;
+}
+
+.div-card {
+    width: 500px;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background:#191919;
+    text-align: center;
+}
+
+.div-card h1 {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.div-card input[type = "text"], .div-card input[type = "email"] {
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto ;
+    text-align: center;
+    border: 2px solid #3498db;
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    color: #fff;
+    border-radius: 24px;
+    transition: 0.25s;
+}
+
+.div-card input[type = "text"]:focus, .div-card input[type = "password"]:focus {
+    width: 280px;
+    border-color: #2ecc71;
+  }
+  
+.div-card input[type = "submit"]{
+      border: 0;
+      background: none;
+      display: block;
+      margin: 20px auto ;
+      text-align: center;
+      border: 2px solid #2ecc71;
+      padding: 14px 40px;
+      outline: none;
+      color: #fff;
+      border-radius: 24px;
+      transition: 0.25s;
+      cursor: pointer;
+  }
+  
+.div-card input[type = "submit"]:hover {
+      background:  #2ecc71;
+  }
+.card-header h3{
+    color: #fff;
+}
+
